@@ -1,0 +1,6 @@
+name: LobbyCore
+main: Ordness\Lobby\Core
+version: 1.0.0
+api: 4.0.0
+author: Nyrok
+src-namespace-prefix: Ordness\Lobby
