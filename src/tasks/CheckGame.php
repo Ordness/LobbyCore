@@ -9,7 +9,6 @@ use pocketmine\color\Color;
 use pocketmine\scheduler\Task;
 use pocketmine\Server;
 use pocketmine\world\particle\DustParticle;
-use pocketmine\world\particle\PotionSplashParticle;
 
 final class CheckGame extends Task
 {

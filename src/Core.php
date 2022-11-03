@@ -13,8 +13,8 @@ use pocketmine\utils\SingletonTrait;
 class Core extends PluginBase
 {
     public const PREFIX = "§l§eO§frdness §e» §r";
-    public const COLOR_RED = 4278190335;
-    public const COLOR_BLUE = 65535;
+    public const COLOR_RED = 1;
+    public const COLOR_BLUE = 2;
     use SingletonTrait;
 
     protected function onLoad(): void
