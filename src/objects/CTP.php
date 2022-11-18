@@ -92,7 +92,7 @@ final class CTP
         $instrument = NoteInstrument::PIANO();
         $player->broadcastSound(new NoteSound($instrument, $instrument->getMagicNumber()));
         $player->getWorld()->addParticle($player->getPosition(), new PotionSplashParticle(new Color(255, 0, 0)));
-        $this->start();
+        // $this->start();
     }
 
     public function leaveGame(Player $player): void
@@ -152,7 +152,7 @@ final class CTP
                 $decount--;
             } else if ($decount === -1) {
                 $this->teleportPlayers();
-                $this->task->getHandler()->cancel();
+                $this->task->getHandler()?->cancel();
             } else {
                 $this->decountPlayers($decount);
                 $decount--;
